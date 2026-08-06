@@ -1,30 +1,27 @@
+using UnityEditor;
 using UnityEngine; //esto son librerias de unity (osea las cosas para que funcione) 
 
 
 public class Player_movement : MonoBehaviour
 {
-    public float altura = 1.82f;
-    public int edad = 30;
-    public string nombre = "tripichin";  //estos son datos (hay publicos o privados (si son publicos se pone en minuscula pero si son privados se pone un guion bajo))
-    public bool puedevotar = true; 
-
-    public GameObject gameObject;
-    public Rigidbody2D rigidbody2D; //esto es de unity
-    public Collider2D collider2D;
-    public SpriteRenderer spriteRender;
-    public Transform transform;
+    [SerializeField] private float _force = 50f;
+    [SerializeField] private float _speed = 20f;
+    [SerializeField] private Rigidbody2D _rigidbody2D;
 
     private void Start()
     {
-        Debug.Log("hola: " + nombre +"tu edad es: " +edad + "tu altura es: " +altura  ); //debug es para mostrar mensajes (L en mayuscula)
-        rigidbody2D.simulated = false;
-        spriteRender.color = Color.red;
-        transform.position = new Vector3(-10f, -3f, 0f);
+        _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
 
     private void Update()
     {
+       if (Input.GetKey(KeyCode.Space)) //esto es para poder presionar un boton 
+       {
+            _rigidbody2D.AddForce(Vector2.up * _force);
+       }
+        _rigidbody2D.velocity = Vector2.right * _speed;
+
 
     }
 }
