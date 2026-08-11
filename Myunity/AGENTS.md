@@ -2,7 +2,7 @@
 - Project name: Myunity
 - Unity version: Unity 2023.1.0f1
 - Active game object:
-  - Name: Capsule
+  - Name: GameObject
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
