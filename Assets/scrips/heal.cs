@@ -13,7 +13,7 @@ public class heal : MonoBehaviour
 
         if (collision.gameObject.tag == "Player");
        {
-            _playerstats.restaurarVida(10);
+            _playerstats.SumarVida(10);
             _uiManager.SumarFillAmount(0.1f);
             Destroy(this.gameObject);
        }

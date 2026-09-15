@@ -15,8 +15,8 @@ public class UIManager : MonoBehaviour
         _barra.fillAmount = _barra.fillAmount - amount;
     }
 
-    public void ColorBarra(Color color)
+    public void ColorBarra(Color mycolor)
     {
-
+        _barra.color = mycolor; 
     }
 }
