@@ -26,7 +26,7 @@ public class PlayerStats : MonoBehaviour
 
         if (40 <= _puntosVidaActuales && _puntosVidaActuales < 80)
         {
-            _uiManager.colorBarra(new Color(245f, 73f, 39f, 255f));
+            _uiManager.colorBarra(Color.red));
         }
 
         if (_puntosVidaActuales < 40)
