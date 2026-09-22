@@ -2,7 +2,7 @@
 - Project name: primeros-pasos-unity-pache
 - Unity version: Unity 2023.1.0f1
 - Active game object:
-  - Name: dinosaurio
-  - Tag: Player
+  - Name: Circle
+  - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
