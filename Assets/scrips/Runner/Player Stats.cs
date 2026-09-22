@@ -32,6 +32,17 @@ public class Playerstats : MonoBehaviour
         {
             _uiManager.ColorBarra(new Color(189f, 15f, 15f, 255));
         }
+
+        if (_puntosVidaActuales > 100)
+        {
+            _puntosVidaActuales = 100;
+        }
+
+        if (_puntosVidaActuales <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+
     }
 
 }

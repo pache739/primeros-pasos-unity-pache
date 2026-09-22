@@ -265,6 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Playerstats: {fileID: 2101907803}
+  _uiManager: {fileID: 606476298}
 --- !u!1 &279090476
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,6 +298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Playerstats: {fileID: 2101907803}
+  _uiManager: {fileID: 606476298}
 --- !u!61 &279090478
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -442,6 +444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Playerstats: {fileID: 2101907803}
+  _uiManager: {fileID: 606476298}
 --- !u!61 &342113538
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -654,6 +657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Playerstats: {fileID: 2101907803}
+  _uiManager: {fileID: 0}
 --- !u!61 &478216784
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1303,6 +1307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Playerstats: {fileID: 2101907803}
+  _uiManager: {fileID: 606476298}
 --- !u!61 &977711246
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1448,6 +1453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Playerstats: {fileID: 2101907803}
+  _uiManager: {fileID: 606476298}
 --- !u!61 &986684439
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1593,6 +1599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Playerstats: {fileID: 2101907803}
+  _uiManager: {fileID: 606476298}
 --- !u!61 &992560145
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1807,7 +1814,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: -5130558894233647175, guid: 788fc961730d434449f8e51467cd08dd, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1856,6 +1863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Playerstats: {fileID: 2101907803}
+  _uiManager: {fileID: 606476298}
 --- !u!61 &1451085743
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2001,6 +2009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Playerstats: {fileID: 2101907803}
+  _uiManager: {fileID: 606476298}
 --- !u!61 &1568884573
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2148,9 +2157,9 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -372, y: 8.4271}
-  m_SizeDelta: {x: 100, y: 83}
+  m_SizeDelta: {x: 65, y: 63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1760013970
 MonoBehaviour:
@@ -2250,10 +2259,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: -6283802744909198736, guid: 6af97ac633202b548900ec2028bd1d42, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -2402,6 +2411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Playerstats: {fileID: 2101907803}
+  _uiManager: {fileID: 606476298}
 --- !u!61 &1855919587
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2614,6 +2624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Playerstats: {fileID: 2101907803}
+  _uiManager: {fileID: 606476298}
 --- !u!61 &1906106147
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2843,7 +2854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _puntosVidaActuales: 100
   _puntosVidaMaximo: 0
-  _uiManager: {fileID: 0}
+  _uiManager: {fileID: 606476298}
 --- !u!1 &2110080192
 GameObject:
   m_ObjectHideFlags: 0
@@ -2876,6 +2887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Playerstats: {fileID: 2101907803}
+  _uiManager: {fileID: 606476298}
 --- !u!61 &2110080194
 BoxCollider2D:
   m_ObjectHideFlags: 0
