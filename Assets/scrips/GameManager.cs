@@ -7,6 +7,24 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+
+    public void SalirDelJuego()
+    {
+        Application.Quit();
+    }
+
+    public void PausarElJuego()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void ReanudarElJuego()
+    {
+        Time.timeScale = 1;
+    }
+    
+   
+    
 }
 
 //Cargar una escena o un nivel
