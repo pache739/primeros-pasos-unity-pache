@@ -11,4 +11,19 @@ public class Gamemanager : MonoBehaviour
         SceneManager.LoadScene(Scene);
     }
 
+    public void SalirDelJuego()
+    {
+        Application.Quit();
+    }
+
+    public void pausareljuego()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void Reanudareljuego()
+    {
+        Time.timeScale = 1;
+    }
+
 }
