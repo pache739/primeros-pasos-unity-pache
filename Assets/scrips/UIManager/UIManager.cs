@@ -24,5 +24,8 @@ public class UIManager : MonoBehaviour
     {
         _barra.color = myColor;
     }
+    public GameObject
+        panelperdiste;
+   
 
 }

@@ -1,6 +1,7 @@
 
 using TMPro.EditorUtilities;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class PlayerStats : MonoBehaviour
     {
         _puntosVidaActuales = _puntosVidaActuales + _recuperarvida;
     }
+    
     private void Update()
     {
         if (_puntosVidaActuales >= 80)
@@ -42,7 +44,7 @@ public class PlayerStats : MonoBehaviour
 
         if (_puntosVidaActuales <=0)
         {
-            Destroy(this.gameObject);
+            SceneManager.LoadScene("perdiste");
         }
     }
 }
