@@ -42,8 +42,11 @@ public class Playerstats : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        
+        
 
     }
+
 
 }
 
