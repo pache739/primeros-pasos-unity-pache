@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class VictoryOrder : MonoBehaviour
+public class PanelVictoria : MonoBehaviour
 {
     [SerializeField] private Playerstats _Playerstats;
     [SerializeField] private UIManager UIManager;
     [SerializeField] private GameManager _gameManager;
-    [SerializeField] private GameObject _panelOfvictory;
+    [SerializeField] private GameObject _panelVictoria;
 
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -13,7 +13,7 @@ public class VictoryOrder : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             _gameManager.PausarElJuego();
-            _panelOfvictory.SetActive(true);
+            _panelVictoria.SetActive(true);
         }
     }
 

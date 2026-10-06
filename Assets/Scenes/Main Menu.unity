@@ -545,9 +545,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1672345384641211354, guid: 68304cc1089765040b6ca150675d8218, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672345384641211354, guid: 68304cc1089765040b6ca150675d8218, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 694847022}
+    - target: {fileID: 1672345384641211354, guid: 68304cc1089765040b6ca150675d8218, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReanudarElJuego
+      objectReference: {fileID: 0}
     - target: {fileID: 3590777530261920200, guid: 68304cc1089765040b6ca150675d8218, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -659,7 +667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3507381350759226560, guid: ad4c66e44c28a3747b146ab4487e33e5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4476522248266998762, guid: ad4c66e44c28a3747b146ab4487e33e5, type: 3}
       propertyPath: m_Pivot.x

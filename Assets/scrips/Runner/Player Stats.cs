@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,6 +7,7 @@ public class Playerstats : MonoBehaviour
     [SerializeField] private int _puntosVidaActuales = 100;
     [SerializeField] private int _puntosVidaMaximo;
     [SerializeField] private UIManager _uiManager;
+    [SerializeField] private GameObject _panelperdiste;
     private int _recuperarVida = 10;
 
     public void RestarVida(int daño)
@@ -25,6 +27,7 @@ public class Playerstats : MonoBehaviour
             _uiManager.ColorBarra(new Color(68f/255f, 189f/ 255f , 68f/ 255f, 255f));
            
         }
+
 
         if( (40<= _puntosVidaActuales) && (_puntosVidaActuales < 80))
         {
@@ -47,7 +50,7 @@ public class Playerstats : MonoBehaviour
 
         if (_puntosVidaActuales <=0)
         {
-            SceneManager.LoadScene("¡PERDISTE!");
+            _panelperdiste.SetActive(true);
         }
 
 
