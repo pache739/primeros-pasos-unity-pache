@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Playerstats : MonoBehaviour
 {
@@ -21,16 +22,17 @@ public class Playerstats : MonoBehaviour
     {
         if(_puntosVidaActuales >= 80)
         {
-            _uiManager.ColorBarra(new Color(68f, 189f, 68f, 255f));
+            _uiManager.ColorBarra(new Color(68f/255f, 189f/ 255f , 68f/ 255f, 255f));
+           
         }
 
         if( (40<= _puntosVidaActuales) && (_puntosVidaActuales < 80))
         {
-            _uiManager.ColorBarra(new Color(245f,73f, 39f, 255f));
+            _uiManager.ColorBarra(new Color(245f/ 255f, 73f / 255, 39f / 255f, 255f));
         }
         if (_puntosVidaActuales < 40)
         {
-            _uiManager.ColorBarra(new Color(189f, 15f, 15f, 255));
+            _uiManager.ColorBarra(new Color(212f/ 255f, 19f/ 255f, 19f/ 255f, 255f));
         }
 
         if (_puntosVidaActuales > 100)
@@ -42,6 +44,13 @@ public class Playerstats : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+
+        if (_puntosVidaActuales <=0)
+        {
+            SceneManager.LoadScene("¡PERDISTE!");
+        }
+
+
         
         
 

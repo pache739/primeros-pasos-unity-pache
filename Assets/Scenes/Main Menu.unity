@@ -657,6 +657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Fondo Rojo '
       objectReference: {fileID: 0}
+    - target: {fileID: 3507381350759226560, guid: ad4c66e44c28a3747b146ab4487e33e5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4476522248266998762, guid: ad4c66e44c28a3747b146ab4487e33e5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
