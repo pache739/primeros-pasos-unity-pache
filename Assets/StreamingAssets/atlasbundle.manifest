@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.25f1
+CRC: 3677331713
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eda92e1e0bfa783361e627b4e9787902
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4caec809ea790faab4d7e02cb15a3432
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fcc9cfcfeaa319d54d6e83450423a78f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Samples/2D Common/12.0.4/Sprite Atlas Samples/FromAssetBundle/FromAssetBundle.spriteatlasv2
+Dependencies: []

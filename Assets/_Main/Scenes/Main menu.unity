@@ -587,7 +587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3977890627074577524, guid: 3cb949760e6b73b4a9c4ad2cb2ef1138, type: 3}
       propertyPath: m_text
-      value: "PACHE Y URUE\xD1A CREARON ESTO"
+      value: "JUAN SEBASTIAN PATI\xD1O Y URUE\xD1A CREARON ESTO"
       objectReference: {fileID: 0}
     - target: {fileID: 3977890627074577524, guid: 3cb949760e6b73b4a9c4ad2cb2ef1138, type: 3}
       propertyPath: m_fontSize
@@ -606,12 +606,16 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4317959276083488265, guid: 3cb949760e6b73b4a9c4ad2cb2ef1138, type: 3}
+      propertyPath: m_text
+      value: Dino corrida
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317959276083488265, guid: 3cb949760e6b73b4a9c4ad2cb2ef1138, type: 3}
       propertyPath: m_fontSize
-      value: 200
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 4317959276083488265, guid: 3cb949760e6b73b4a9c4ad2cb2ef1138, type: 3}
       propertyPath: m_fontSizeBase
-      value: 200
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 4848466338388183676, guid: 3cb949760e6b73b4a9c4ad2cb2ef1138, type: 3}
       propertyPath: m_Pivot.x
@@ -699,12 +703,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5004667908051548883, guid: 3cb949760e6b73b4a9c4ad2cb2ef1138, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 220
+      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: 5010437025775239663, guid: 3cb949760e6b73b4a9c4ad2cb2ef1138, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2132937677}
+    - target: {fileID: 5010437025775239663, guid: 3cb949760e6b73b4a9c4ad2cb2ef1138, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5086575276458310751, guid: 3cb949760e6b73b4a9c4ad2cb2ef1138, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 6
@@ -779,7 +787,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7749445488652288414, guid: 3cb949760e6b73b4a9c4ad2cb2ef1138, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4.5362
+      value: -4.536194
       objectReference: {fileID: 0}
     - target: {fileID: 7949782296442200395, guid: 3cb949760e6b73b4a9c4ad2cb2ef1138, type: 3}
       propertyPath: m_fontSize
