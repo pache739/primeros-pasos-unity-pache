@@ -8,6 +8,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private int _puntosVidaActuales = 100;
     [SerializeField] private int _puntosdeVidaMaxio = 100;
     [SerializeField] private UIManager _uiManager;
+    [SerializeField] private GameObject _panelperdiste;
     private int _recuperarvida = 10;
     public void RestarVida(int daño)
     {
@@ -44,7 +45,7 @@ public class PlayerStats : MonoBehaviour
 
         if (_puntosVidaActuales <=0)
         {
-            SceneManager.LoadScene("perdiste");
+            _panelperdiste.SetActive(true);
         }
     }
 }
